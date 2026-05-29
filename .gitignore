@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset files (too large for GitHub)
+data/train.csv
+data/test.csv
+
+# Saved models
+*.pkl
+*.joblib
