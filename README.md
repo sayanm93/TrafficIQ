@@ -3,8 +3,6 @@
 
 > Predicting urban traffic demand using machine learning to help cities tackle congestion and improve mobility.
 
----
-
 ## 📌 Problem Statement
 
 Given geographic, road, and weather data across various city locations, predict the **traffic demand** (a value between 0 and 1) at each location and timestamp.
@@ -17,14 +15,10 @@ Given geographic, road, and weather data across various city locations, predict 
 score = max(0, 100 * r2_score(actual, predicted))
 ```
 
----
-
 ## 📁 Project Structure
 ```
 <img width="514" height="398" alt="image" src="https://github.com/user-attachments/assets/342720e8-30f9-4073-8d00-47764fd9995c" />
 ```
-
----
 
 ## 📊 Dataset
 
@@ -50,8 +44,6 @@ score = max(0, 100 * r2_score(actual, predicted))
 | `Weather` | string | Sunny / Rainy / Foggy / Snowy |
 | `demand` | float | 🎯 Target variable (0 to 1) |
 
----
-
 ## ⚙️ Setup
 
 ### 1. Clone the repo
@@ -76,8 +68,6 @@ Open the baseline notebook:
 jupyter notebook notebooks/baseline.ipynb
 ```
 
----
-
 ## 🚀 Workflow
 
 ```
@@ -91,7 +81,6 @@ Explore data → Clean & engineer features → Train model → Validate locally 
 5. **Validate locally** — use 80/20 split, check R² score
 6. **Submit only if local score improves** ⚠️
 
----
 
 ## 📋 Submission Rules
 
@@ -100,8 +89,6 @@ Explore data → Clean & engineer features → Train model → Validate locally 
 - Log every submission in the tracker below
 - Submission format: CSV with columns Index and demand
 - File size must be 41,778 × 2
-
----
 
 ## 👥 Team
 
@@ -112,7 +99,6 @@ Explore data → Clean & engineer features → Train model → Validate locally 
 | Devashish | @username | - |
 | Adit | @username | - |
 
----
 
 ## 🏆 Best Score
 
@@ -121,7 +107,6 @@ Model   : —
 By      : —
 Date    : —
 
----
 
 ## 📦 Dependencies
 
@@ -131,7 +116,6 @@ See requirements.txt for full list. Key libraries:
 - xgboost, lightgbm — gradient boosting models
 - matplotlib, seaborn — visualization
 
----
 
 *Competition hosted on [Platform Name] | Team TrafficIQ*
 ```
