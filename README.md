@@ -21,27 +21,8 @@ score = max(0, 100 * r2_score(actual, predicted))
 
 ## 📁 Project Structure
 
-```
-TrafficIQ/
-│
-├── data/
-│   └── sample_submission.csv     # Submission format reference
-│   # ⚠️ train.csv & test.csv are NOT in GitHub (too large)
-│   # Download from Google Drive link below
-│
-├── notebooks/
-│   └── baseline.ipynb            # Starter notebook (start here!)
-│
-├── submissions/
-│   └── (your submission csv files go here)
-│
-├── outputs/
-│   └── (saved model files go here)
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+<img width="514" height="398" alt="image" src="https://github.com/user-attachments/assets/342720e8-30f9-4073-8d00-47764fd9995c" />
+
 
 ---
 
@@ -122,22 +103,14 @@ Explore data → Clean & engineer features → Train model → Validate locally 
 
 ---
 
-## 📈 Submission Tracker
-
-| # | By | Model | Key Changes | Local R² | Actual Score | Date |
-|---|-----|-------|-------------|----------|--------------|------|
-| 1 | - | - | baseline | - | - | - |
-
----
-
 ## 👥 Team
 
 | Member | GitHub | Focus Area |
 |--------|--------|------------|
 | Sayan | @sayanmitra | - |
-| Member 2 | @username | - |
-| Member 3 | @username | - |
-| Member 4 | @username | - |
+| Ankit | @username | - |
+| Devashish | @username | - |
+| Adit | @username | - |
 
 ---
 
