@@ -224,3 +224,4 @@ data/test.csv
 # Saved models
 *.pkl
 *.joblib
+.DS_Store
