@@ -14,7 +14,6 @@ Given geographic, road, and weather data across various city locations, predict 
 ```
 score = max(0, 100 * r2_score(actual, predicted))
 ```
-
 ## 📁 Project Structure
 ```
 <img width="514" height="398" alt="image" src="https://github.com/user-attachments/assets/342720e8-30f9-4073-8d00-47764fd9995c" />
@@ -117,5 +116,5 @@ See requirements.txt for full list. Key libraries:
 - matplotlib, seaborn — visualization
 
 
-*Competition hosted on [Platform Name] | Team TrafficIQ*
+*Competition hosted on Hackerearth | Team TrafficIQ*
 ```
