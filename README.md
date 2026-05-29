@@ -20,9 +20,9 @@ score = max(0, 100 * r2_score(actual, predicted))
 ---
 
 ## 📁 Project Structure
-
+```
 <img width="514" height="398" alt="image" src="https://github.com/user-attachments/assets/342720e8-30f9-4073-8d00-47764fd9995c" />
-
+```
 
 ---
 
